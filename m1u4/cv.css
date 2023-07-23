@@ -1,0 +1,61 @@
+h1{ 
+    color: grey; /*color de la fuente*/ 
+    background-color: pink; /*fondo*/
+    text-align: center; /*alineación*/
+    text-transform: uppercase; /*mayúscula*/
+    }
+
+img {
+    width: 400px;
+    height: 400px; 
+    Padding: 5px;
+    object-fit:left;
+   Border: 5px solid black;
+    /*borde del párrafo*/
+    Margin-left: 450px;
+}   
+    
+
+h3{
+    Font-size: 20px;
+    /*tamaño de la fuente*/
+    Font-family: Georgia;
+    /*cambio de tipografía*/
+}
+
+.destacados {
+    Font-size: 25px;
+    Color: rgb(173, 7, 34);
+    text-transform:capitalize;
+}
+
+p {
+    Font-weight: bold;
+    Font-style: italic;
+    Line-height: 25px;
+    /*alto de linea*/
+}
+
+
+#caja {
+    Background-color: lightblue;
+    /*fondo*/
+    Width: 100 px;
+    /*ancho*/
+    Height: 100px;
+    /*alto*/
+    Padding: 5px;
+    /*espacios del párrafo, puede ser arriba, abajo, izquierda, derecho, cuando se pone padding aparece para elegir la opción. Se recomienda usar padding junto con box-sizing: border-box */
+    Box-sizing: border-box;
+   /*adecuar el padding a el alto y ancho establecido*/
+   Margin-left: 5px;
+    /*margen hacia afuera respecto del resto de los contenidos de la página. Cuando es left indica que deja un margen respecto del borde izquierdo de la pagina.*/
+    Border: 5px solid black;
+    /*borde del párrafo*/
+}
+
+.color {
+    Font-size: 25px;
+    Color: rgb(230, 180, 18);
+    text-transform:capitalize;
+}
