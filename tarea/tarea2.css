@@ -1,0 +1,49 @@
+.contenedor {
+    border: 1px solid black;
+    flex-direction: row-reverse; /*Dirección mediante el orden inverso de filas*/
+    align-items: center;
+    margin: auto;
+    height: 450px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+} 
+
+.item1 {
+    background-color: red;
+    color: white;
+    margin:0%;
+    width: 33%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    /*Eje de las Y. Justifica el contenido hacia el centro*/
+    align-items: center;
+    /*Eje de las X. Alinea el contenido al medio del bloque*/
+}
+
+.item2 {
+    background-color: blue;
+    color: white;
+    margin:0%;
+    width: 33%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    /*Eje de las Y. Justifica el contenido hacia el centro*/
+    align-items: center;
+    /*Eje de las X. Alinea el contenido al medio del bloque*/
+}
+
+.item3 {
+    background-color: green;
+    color: white;
+    margin:0%;
+    width: 33%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    /*Eje de las Y. Justifica el contenido hacia el centro*/
+    align-items: center;
+    /*Eje de las X. Alinea el contenido al medio del bloque*/
+}

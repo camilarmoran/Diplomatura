@@ -1,0 +1,19 @@
+.contenedor{
+	background-color: blue;
+	height: 500px;
+	display: inline-flex; /*las cajas no se adaptan al tamaño*/
+	flex-wrap: wrap;/*desbordamiento*/
+	align-content: flex-start;
+	/*align-content: flex-end;*/
+	/*align-content: stretch;*/
+	/*align-content: space-around;*/
+	/*align-content: space-between;*/
+}
+
+.item{
+	background-color: #ccc;
+	width: 25%;
+	margin: 10px;
+	font-size: 30px;
+}
+ 
